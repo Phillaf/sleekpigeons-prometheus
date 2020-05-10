@@ -31,4 +31,4 @@ scrape_configs:
   - job_name: 'sleekpigeon'
 
     static_configs:
-    - targets: ['sleekpigeon:9090']
+    - targets: ['sleekpigeons.com:9090']

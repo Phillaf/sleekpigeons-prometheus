@@ -5,6 +5,8 @@ services:
     image: prom/prometheus
     volumes:
       - ./prometheus:/etc/prometheus/
+        #    ports:
+        #      - "9090:9090"
   grafana:
     restart: always
     image: grafana/grafana:latest
